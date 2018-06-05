@@ -1,0 +1,78 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "impliedStrict": true
+        },
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "arrow-parens": [
+            2,
+            "always"
+        ],
+        "arrow-spacing": [
+            2,
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "camelcase": "warn",
+        "complexity": [
+            "error",
+            {
+                "max": 10
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-console": "warn",
+        "no-const-assign": 2,
+        "no-mixed-spaces-and-tabs": [
+            2,
+            "smart-tabs"
+        ],
+        "no-multi-str": 2,
+        "no-multiple-empty-lines": [
+            "warn",
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "no-octal": 2,
+        "no-undef": "error",
+        "no-unused-vars": [
+            1
+        ],
+        "no-trailing-spaces":"error",
+        "no-useless-escape": "off",
+        "no-var": 1,
+        "prefer-arrow-callback": 1,
+        "prefer-const": 1,
+        "prefer-rest-params": 2,
+        "prefer-spread": 2,
+        "quotes": [
+            "error",
+            "backtick"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "spaced-comment": [
+            2,
+            "always"
+        ]
+    }
+}

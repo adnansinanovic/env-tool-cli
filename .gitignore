@@ -31,12 +31,13 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build/
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
@@ -57,5 +58,5 @@ typings/
 # dotenv environment variables file
 .env
 
-# next.js build output
-.next
+test/output.env
+test/output.json
