@@ -1,6 +1,11 @@
 # env-tool-cli
 .env to json converter and vice versa.
 
+```sh
+Tool created some time ago... and it was sitting on my hard drive.
+Hopefully it still works.
+```
+
 ## Install
 `npm install -g env-tool-cli`
 
